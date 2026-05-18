@@ -188,7 +188,7 @@ Running `SELECT * FROM PRODUCTS` shows all persisted records.
 ### Project Structure in IntelliJ
 The layered package structure follows good Spring Boot architecture practices.
 
-![Project Structure](screenshots/Screenshot_2026-05-18_032318.png)
+![Project Structure](screenshots/project-structure.png)
 
 ---
 
