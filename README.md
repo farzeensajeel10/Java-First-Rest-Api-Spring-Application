@@ -137,7 +137,7 @@ The Swagger UI provides an interactive interface to test all endpoints. Accessib
 ### POST – Create Product
 Creating a new product via Swagger returns `201 Created` with the saved product including its generated ID.
 
-> _Tested via Postman during initial development_
+![Create Product](screenshots/create-product.png)
 
 ---
 
@@ -151,7 +151,7 @@ Fetching all products returns a JSON array of all stored products.
 ### GET – Find One Product by ID
 Fetching a specific product by its ID returns a single product object with `200 OK`.
 
-![Get One Product](screenshots/get_oen_product.png)
+![Get One Product](screenshots/get-one-product.png)
 
 ---
 
@@ -180,8 +180,8 @@ Deleting a product by ID returns `204 No Content` on success.
 The H2 in-memory database is accessible during runtime at `http://localhost:8080/console`.  
 Running `SELECT * FROM PRODUCTS` shows all persisted records.
 
-![H2 Console](screenshots/h2-console.png)
-![H2 Console Query Result](screenshots/h2-console_1_.png)
+![H2 Console](screenshots/h2-console(1).png)
+![H2 Console Query Result](screenshots/h2-console.png)
 
 ---
 
